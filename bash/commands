@@ -1,0 +1,36 @@
+порт - точка соединяния 2-х приложений клиент-сервер или сервер-сервер
+
+smtp - 25
+ssh 22 
+http 80   
+https 443 
+ftp 21 
+mysql 3306 
+rdp 3389  
+imap 143
+imaps 993 
+dns 53 
+
+
+
+
+netstat
+"socket" - ip address + port
+
+service --status-all     -   show all services (run & stop)
+
+systemctl status mysql.service  --  show status mysql service 
+
+sudo systemctl disable mysql.service   - викл сервіс mysql / не буде працювати після reboot
+
+ss -t -a
+              Display all TCP sockets.
+ss -u -a
+              Display all UDP sockets.
+
+ip a 
+ip a -s 
+
+sudo timedatectl set-timezone Europe/Kiev  -  Change the Time Zone in Linux
+
+    - узнаем откритий порт на указаном ip
